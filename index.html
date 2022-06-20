@@ -12,7 +12,7 @@
   <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
   <link rel="stylesheet" href="bootstrap-icons-1.8.3/bootstrap-icons.css">
-  <base href="#">
+  <base href="#" target="_blank">
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         </a>
         <ul class="nav nav-pills">
           <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">主页</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">联系</a></li>
+          <li class="nav-item"><a href="doc/index.html" class="nav-link">文档</a></li>
           <li class="nav-item"><a href="downloads/index.html" class="nav-link">下载</a></li>
           <li class="nav-item"><a href="makesite/index.html" class="nav-link">在线建站</a></li>
           <li class="nav-item"><a href="check/index.html" class="nav-link">作业</a></li>
@@ -33,7 +33,7 @@
       <section class="py-5 text-center bg-secondary rounded-bottom" style="margin-bottom: 1.5rem;">
         <div class="row py-lg-5">
           <div class="col-lg-6 col-md-8 mx-auto">
-            <h1 class="text-white">关于Lazyco.top</h1>
+            <h1 class="text-white display-4">关于Lazyco.top</h1>
             <p class="lead text-light">
               欢迎你来到Lazyco.top，这里有各种各样的工具、应用和教程，
               你可以在本站学到很多东西，一起来玩吧！
@@ -50,8 +50,8 @@
             在线建站工具帮助你在没有学过HTML，CSS等语言的情况下快速制作网页，像编辑PPT那样简单。<br>
             在线建站工具是完全免费的，你不需要支付任何费用即可享用各种功能。
           </p>
-          <button class="btn btn-primary btn-lg">进入编辑器</button>
-          <button class="btn btn-outline-secondary btn-lg">了解更多</button>
+          <a class="btn btn-primary btn-lg">进入编辑器</a>
+          <a class="btn btn-outline-secondary btn-lg" href="makesite/index.html">了解更多</a>
         </div>
       </div>
       <div class="p-5 mb-4 bg-light rounded-3 container" style="padding: 1.5rem!important">
@@ -73,7 +73,7 @@
           </p>
           <button class="btn btn-primary btn-lg">进入学生界面</button>
           <button class="btn btn-primary btn-lg">进入老师界面</button>
-          <button class="btn btn-outline-secondary btn-lg">了解更多</button>
+          <a class="btn btn-outline-secondary btn-lg" href="check/index.html">了解更多</a>
         </div>
       </div>
     </main>
@@ -83,14 +83,13 @@
     <footer class="py-5">
       <div class="row">
         <div class="col-6 col-md-2 mb-3">
-          <h5>页面</h5>
+          <h5>热门页面</h5>
           <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">主页</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">联系</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">下载</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">建站</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">作业</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">关于</a></li>
+            <li class="nav-item mb-2"><a href="makesite/index.html" class="nav-link p-0 text-muted">建站</a></li>
+            <li class="nav-item mb-2"><a href="downloads/index.html" class="nav-link p-0 text-muted">下载</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">Minecraft教程</a></li>
+            <li class="nav-item mb-2"><a href="check/index.html" class="nav-link p-0 text-muted">作业</a></li>
+            <li class="nav-item mb-2"><a class="nav-link p-0 text-muted">关于</a></li>
           </ul>
         </div>
         <!--
@@ -104,10 +103,20 @@
             <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
           </ul>
         </div>-->
+        <div class="col-6 col-md-2 mb-3">
+          <h5>文档</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">示例</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">示例</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">示例</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">示例</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">示例</a></li>
+          </ul>
+        </div>
 
         <div class="col-md-5 offset-md-1 mb-3">
           <h5>参与我们的开发</h5>
-          <p>我们需要你！你可以在<a href="#" class="text-black">Github</a>参与我们的开发</p>
+          <p>我们需要你！你可以在<a href="https://github.com/MiniOrange101/Lazyco_top/" class="text-black">Github</a>参与我们的开发</p>
           <h5>反馈</h5>
           <div class="d-flex flex-column flex-sm-row w-100 gap-2">
             <label class="visually-hidden">输入反馈信息</label>
@@ -119,13 +128,35 @@
       <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
         <p>Copyright &copy; 2022 lazyco.top All rights reserved. 备案号: 沪ICP备2022016751号-1</p>
         <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-github"></i></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-envelope-fill"></i></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-qq"></i></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-weibo"></i></a></li>
+          <li class="ms-3"><a class="link-dark" href="https://github.com/MiniOrange101/Lazyco_top/">
+              <i class="bi bi-github"></i></a></li>
+          <li class="ms-3"><a class="link-dark" href="mailto:MiniOrange@foxmail.com">
+              <i class="bi bi-envelope-fill"></i></a></li>
+          <li class="ms-3"><a class="link-dark" href="#" data-bs-toggle="modal" data-bs-target="#qqQun"><i
+                class="fa fa-qq"></i></a></li>
+          <li class="ms-3"><a class="link-dark"><i class="fa fa-weibo"></i></a></li>
         </ul>
       </div>
     </footer>
+  </div>
+  <div class="modal fade" id="qqQun">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content">
+        <!-- 模态框头部 -->
+        <div class="modal-header">
+          <h4 class="modal-title">加入我们的qq交流群</h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <!-- 模态框内容 -->
+        <div class="modal-body">
+          <img src="lazyco_top_comm.png" alt="qq群 群名称:Lazyco.top交流群 群号:190265477">
+        </div>
+        <!-- 模态框底部 -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
