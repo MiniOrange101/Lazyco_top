@@ -1,4 +1,4 @@
-var webDirectory = "/Users/miaomiaoli/Sites/Lazyco_top/";
+var webDirectory = "/Users/miaomiaoli/Sites/Lazyco_top";
 function loadHeader(page) {
   if (1 == 1) {
     var e_0 = document.createElement("div");
@@ -118,7 +118,7 @@ function loadFooter() {
   var e_13 = document.createElement("li");
   e_13.setAttribute("class", "nav-item mb-2");
   var e_14 = document.createElement("a");
-  e_14.setAttribute("href", "#");
+  e_14.setAttribute("href", webDirectory + "/doc/mc/index.html");
   e_14.setAttribute("class", "nav-link p-0 text-muted");
   e_14.appendChild(document.createTextNode("Minecraft教程"));
   e_13.appendChild(e_14);
@@ -135,7 +135,7 @@ function loadFooter() {
   e_17.setAttribute("class", "nav-item mb-2");
   var e_18 = document.createElement("a");
   e_18.setAttribute("class", "nav-link p-0 text-muted");
-  e_18.setAttribute("href", "#");
+  e_18.setAttribute("href", webDirectory + "/about.html");
   e_18.appendChild(document.createTextNode("关于"));
   e_17.appendChild(e_18);
   e_8.appendChild(e_17);
@@ -372,3 +372,4 @@ function loadFooter() {
   document.write("<div id=\"footerNav\"><\/div>");
   document.getElementById("footerNav").appendChild(container);
 }
+document.write("<link rel=\"shortcut icon\" href=" + webDirectory + "icon.png type=\"image\/x-icon\"\/>");
