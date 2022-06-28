@@ -202,17 +202,17 @@ function loadFooter() {
   var e_35 = document.createElement("li");
   e_35.setAttribute("class", "nav-item mb-2");
   var e_36 = document.createElement("a");
-  e_36.setAttribute("href", "#");
+  e_36.setAttribute("href", webDirectory + "/doc/makesite/index.html");
   e_36.setAttribute("class", "nav-link p-0 text-muted");
-  e_36.appendChild(document.createTextNode("示例"));
+  e_36.appendChild(document.createTextNode("在线建站基础教程"));
   e_35.appendChild(e_36);
   e_34.appendChild(e_35);
   var e_37 = document.createElement("li");
   e_37.setAttribute("class", "nav-item mb-2");
   var e_38 = document.createElement("a");
-  e_38.setAttribute("href", "#");
+  e_38.setAttribute("href", webDirectory + "/doc/makesite/pro.html");
   e_38.setAttribute("class", "nav-link p-0 text-muted");
-  e_38.appendChild(document.createTextNode("示例"));
+  e_38.appendChild(document.createTextNode("在线建站Pro教程"));
   e_37.appendChild(e_38);
   e_34.appendChild(e_37);
   var e_39 = document.createElement("li");
@@ -273,7 +273,8 @@ function loadFooter() {
   var e_53 = document.createElement("button");
   e_53.setAttribute("class", "btn btn-primary");
   e_53.setAttribute("type", "button");
-  e_53.appendChild(document.createTextNode("Send"));
+  e_53.setAttribute("style", "white-space:nowrap;")
+  e_53.appendChild(document.createTextNode("发送"));
   e_50.appendChild(e_53);
   e_45.appendChild(e_50);
   e_4.appendChild(e_45);
