@@ -1,4 +1,4 @@
-var webDirectory = "/Users/miaomiaoli/Sites/Lazyco_top";
+var webDirectory = "https://lazyco.top/";
 function loadHeader(page) {
   if (1 == 1) {
     var e_0 = document.createElement("div");
